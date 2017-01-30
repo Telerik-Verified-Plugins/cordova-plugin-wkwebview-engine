@@ -30,10 +30,12 @@
     <keywords>cordova,wkwebview,webview</keywords>
     <repo>https://git-wip-us.apache.org/repos/asf/cordova-plugin-wkwebview-engine.git</repo>
 
-	<engines>
+    <engines>
         <engine name="cordova-ios" version=">=4.0.0-dev" />
         <engine name="apple-ios" version=">=9.0" />
-	</engines>
+    </engines>
+
+    <dependency id="cordova-labs-local-webserver" url="https://github.com/Telerik-Verified-Plugins/LocalWebServer.git" commit="2c4b6deb81ea13afdd6e95396f9f499d95515bca" />
 
     <!-- ios -->
     <platform name="ios">
